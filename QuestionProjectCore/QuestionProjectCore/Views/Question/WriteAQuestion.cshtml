@@ -1,0 +1,28 @@
+﻿@model Question
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<form method="post" >
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Write A Question !</label>
+        <textarea asp-for="TheQuestion" class="form-control" rows="4"></textarea>
+        <br>
+        <button type="submit" asp-action="WriteQuestion" class="btn btn-primary" style="width:150px">Submit</button>
+        <input asp-for=CategoryID hidden value="1" />
+
+        @* To Get current user ID and save it in database with the writed question *@
+        @{
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            <input asp-for=UserID hidden value="@claims.Value.ToString()" />
+        }
+
+    </div>
+</form> 

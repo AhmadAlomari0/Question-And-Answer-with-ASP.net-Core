@@ -1,0 +1,74 @@
+﻿:root {
+    --font-color: #4d4d4d
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.login-form {
+    border: 0.1px solid #f2f2f2;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 350px;
+    height: auto;
+    background-color: white;
+}
+
+    .login-form h1 {
+        color: #262626;
+    }
+
+.login-elements {
+    text-align: center;
+}
+
+    .login-elements input {
+        margin: 5px 0px 5px 0px;
+    }
+
+input[type=text], [type=date], #pass {
+    height: 22px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#birthdate {
+    text-align: center;
+    color: gray;
+    padding-left: 5%;
+}
+
+#login {
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    background-color: #0eafbe;
+    color: white;
+    border: 1px #0b8793;
+    border-radius: 10px;
+}
+
+    #login:hover {
+        background-color: #0b838e;
+    }
+
+.register-label {
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 200px;
+}
+
+    .register-label a {
+        color: #ffb366;
+    }
+
+        .register-label a:hover {
+            color: black;
+        }

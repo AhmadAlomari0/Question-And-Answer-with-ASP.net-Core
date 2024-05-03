@@ -1,0 +1,83 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "NewMember";
+}
+
+<h1>NewMember</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Add New Item</h2>
+            <hr />
+            <p>
+                @if (TempData["errorMessage"] != null)
+                {
+                    @TempData["errorMessage"]
+                }
+            </p>
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserName">Username</label>
+            <input asp-for=UserName asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+        </div>        
+        <div class="mb-3">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>      
+        <div class="mb-3">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>       
+        <div class="mb-3">
+            <label asp-for="BirthDate"></label>
+            <input asp-for="BirthDate" asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="BirthDate" class="text-danger"></span>
+        </div>      
+        <div class="mb-3">
+            <label asp-for="Country" asp-for="Country"></label>
+            <input asp-for="Country" asp-controller="Members" asp-action="NewMember" />
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+        <div>
+            <input type="file" asp-for="ClientFile" onchange="loadFile(event)"/>
+            <img id="myImg" height="200" />
+        </div>
+        <hr />
+        <button type="submit" class="btn btn-primary" style="width:150px">Save</button>
+        <a asp-action="Index" asp-controller="Members" class="btn btn-secondary" style="width:150px">
+            back to Members
+        </a>
+    </div>
+</form>
+
+@section Scripts{
+<partial name="_ValidationScriptsPartial" />
+<script>
+    var loadFile = function (event) { 
+        var reader = new FileReader();
+
+        reader.onload = function () {
+            var myImg = document.getElementById('myImg');
+            myImg.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0])
+    }
+</script>
+}
+
+
+
+
+
+

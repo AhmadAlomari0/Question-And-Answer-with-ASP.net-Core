@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Question>
+@using Microsoft.AspNetCore.Identity;
+@using System.Security.Claims
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class="col-6 text-end">
+    <a asp-controller="Question" asp-action="WriteAQuestion" class="btn btn-primary">
+        <i class="bi bi-person-fill-add"></i> &nbsp; Write A Question
+    </a>
+</div>
+
+
+
+<form>
+    @{
+        async Task<string> GetUserName(string userId)
+        {
+            @inject UserManager<IdentityUser> _user
+            var user = await _user.FindByIdAsync(userId);
+            var userName = user;
+            return userName.ToString();
+        }
+
+    }
+    @foreach (var question in Model)
+    {
+        <div>
+            <label>UserName</label>
+            <p>@await GetUserName(question.UserID)</p> 
+            
+            <label>Question</label>
+            <p>@question.TheQuestion</p>
+        </div>
+    }
+</form>
+

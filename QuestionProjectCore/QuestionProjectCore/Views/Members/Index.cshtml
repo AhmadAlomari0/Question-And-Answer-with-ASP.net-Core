@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Member>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row pt-4">
+        <h2>Members View</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-controller="Members" asp-action="NewMember" class="btn btn-primary">
+            <i class="bi bi-person-fill-add"></i> &nbsp; Add New Member
+            </a>
+    </div>
+</div>
+
+<table class="table table-bordered table-strped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                UserName
+            </th>
+            <th>
+                PhoneNumber
+            </th>
+            <th>
+                Country
+            </th>
+            <th>
+                Imgae
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach(var member in Model)
+        {
+            <tr>
+                <td>
+                    @member.Id
+                </td>     
+                <td>
+                    @member.UserName
+                </td>      
+                <td>
+                    @member.PhoneNumber
+                </td>
+                <td>
+                    @member.Country
+                </td>
+                <td>
+                    <img src="~/images/@member.ImagePath" style="width:48px" class="img-thumbnail">
+                </td>
+                <td>
+                    <a asp-controller="Members" asp-action="EditMember" asp-route-Id="@member.Id" class="btn btn-success">
+                        <i class="bi bi-pencil">Edit</i>
+                    </a>
+                    &nbsp;
+                    <a asp-controller="Members" asp-action="DeleteMember" asp-route-Id="@member.Id" class="btn btn-danger">
+                        <i class="bi bi-trash3">Delete</i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

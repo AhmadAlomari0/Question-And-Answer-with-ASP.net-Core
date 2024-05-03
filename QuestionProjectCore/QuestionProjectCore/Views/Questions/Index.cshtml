@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Question>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form>
+    @foreach(var question in Model)
+    {
+        <div>
+            <label>User ID</label>
+            @* <p>@question.MemberID</p> *@
+            <label>Question</label>
+            <p>@question.TheQuestion</p>
+            <label>Likes</label>
+            <p>@question.Like</p>
+            <label>Answer:</label>
+            <p>@question.Answers</p>
+        </div>
+    }
+</form>
+
