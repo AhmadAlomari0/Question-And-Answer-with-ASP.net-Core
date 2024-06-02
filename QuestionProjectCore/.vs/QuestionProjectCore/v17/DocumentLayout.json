@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\views\\question\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\views\\question\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\repository\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\repository\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\views\\question\\writeaquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\views\\question\\writeaquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\wwwroot\\css\\questionstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\wwwroot\\css\\questionstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|c:\\users\\asus\\question and answer project\\questionprojectcore\\questionprojectcore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{199A13BC-E4A8-4D9E-9A49-3FC768CA17BB}|QuestionProjectCore\\QuestionProjectCore.csproj|solutionrelative:questionprojectcore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Models\\Answer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Models\\Answer.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Models\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T13:09:11.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Models\\Question.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Models\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:49:20.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "questionStyle.css",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\wwwroot\\css\\questionStyle.css",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\wwwroot\\css\\questionStyle.css",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\wwwroot\\css\\questionStyle.css",
+              "RelativeToolTip": "QuestionProjectCore\\wwwroot\\css\\questionStyle.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-02T11:43:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "QuestionProjectCore\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T11:40:10.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WriteAQuestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\Question\\WriteAQuestion.cshtml",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Views\\Question\\WriteAQuestion.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\Question\\WriteAQuestion.cshtml",
+              "RelativeToolTip": "QuestionProjectCore\\Views\\Question\\WriteAQuestion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T10:37:51.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Controllers\\QuestionController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T09:42:12.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Program.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Program.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T09:24:50.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\Question\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Views\\Question\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Views\\Question\\Index.cshtml",
+              "RelativeToolTip": "QuestionProjectCore\\Views\\Question\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwDQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T10:14:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Repository\\MainRepository.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Repository\\MainRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Repository\\MainRepository.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Repository\\MainRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAjwDQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T09:50:14.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAEwHEAAACXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T09:27:42.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Question And Answer project\\QuestionProjectCore\\QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "QuestionProjectCore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T09:27:20.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
