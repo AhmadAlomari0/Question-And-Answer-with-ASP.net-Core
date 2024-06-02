@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using QuestionProjectCore.Models;
 using QuestionProjectCore.Repository.Main;
 
 namespace QuestionProjectCore.Repository
 {
-    public class AdminRepo : MainRepository<IdentityUser>, IAdminRepo
+    public class AdminRepo : MainRepository<ApplicationUser>, IAdminRepo
     {
         private readonly AppDbContext _context;
 

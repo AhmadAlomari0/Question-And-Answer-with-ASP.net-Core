@@ -8,21 +8,22 @@
 }
 
 
-
-<form method="post" >
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Write A Question !</label>
-        <textarea asp-for="TheQuestion" class="form-control" rows="4"></textarea>
-        <br>
-        <button type="submit" asp-action="WriteQuestion" class="btn btn-primary" style="width:150px">Submit</button>
-        <input asp-for=CategoryID hidden value="1" />
-
-        @* To Get current user ID and save it in database with the writed question *@
-        @{
-            var claimsIdentity = (ClaimsIdentity)User.Identity;
-            var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-            <input asp-for=UserID hidden value="@claims.Value.ToString()" />
-        }
-
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Write A Question:</label>
+                    <textarea asp-for="TheQuestion" class="form-control" rows="4" placeholder="Enter your question here..."></textarea>
+                </div>
+                <input asp-for="CategoryId" type="hidden" value="1" />
+                <input asp-for="UserId" type="hidden" value="@_UserManager.GetUserId(User)" />
+                <button type="submit" asp-action="WriteQuestion" class="btn btn-primary btn-block mt-3">Submit</button>
+            </form>
+        </div>
     </div>
-</form> 
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -8,8 +8,8 @@ namespace QuestionProjectCore.Repository.Main
         IRepository<Category> categories { get; }
         IRepository<Question> questions { get; }
         IRepository<Report> reports { get; }
-        IRepository<Member> members { get; }
-        IModeratorRepo moderators { get; }
+        //IRepository<Member> members { get; }
+        //IModeratorRepo moderators { get; }
 
         int CommitChanges();
     }

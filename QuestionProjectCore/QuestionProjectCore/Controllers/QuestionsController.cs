@@ -5,15 +5,15 @@ namespace QuestionProjectCore.Controllers
 {
     public class QuestionsController : Controller
     {
-        private readonly AppDbContext _db;
-        public QuestionsController(AppDbContext db)
-        {
-            _db = db;
-        }
-        public IActionResult Index()
-        {
-            IEnumerable<Question> questions = _db.Questions;
-            return View(questions);
-        }
+        //private readonly ApplicationUser _db;
+        //public QuestionsController(ApplicationUser db)
+        //{
+        //    _db = db;
+        //}
+        //public IActionResult Index()
+        //{
+        //    IEnumerable<Question> questions = _db.Questions;
+        //    return View(questions);
+        //}
     }
 }

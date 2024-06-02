@@ -6,35 +6,35 @@ namespace QuestionProjectCore.Controllers
 {
     public class RegisterController : Controller
     {
-        public RegisterController(AppDbContext db)
-        {
-            _db = db;
-        }
+        //public RegisterController(AppDbContext db)
+        //{
+        //    _db = db;
+        //}
         
-        private readonly AppDbContext _db;
+        //private readonly AppDbContext _db;
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Index(Member member)
-        {
-            try
-            {
-                _db.Members.Add(member);
-                _db.SaveChanges();
-                return RedirectToAction("Index", "Home");
-            }
-            catch (Exception ex)
-            {
-                string exMessage = ex.Message;
-                    ViewData["Message"] = exMessage;
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult Index(Member member)
+        //{
+        //    try
+        //    {
+        //        //_db.Members.Add(member);
+        //        _db.SaveChanges();
+        //        return RedirectToAction("Index", "Home");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        string exMessage = ex.Message;
+        //            ViewData["Message"] = exMessage;
 
-                return View();
-            }
-        }
+        //        return View();
+        //    }
+        //}
     }
 }

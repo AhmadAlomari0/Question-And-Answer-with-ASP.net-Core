@@ -11,10 +11,10 @@ namespace QuestionProjectCore.Repository
             _context = context;
             answer = new MainRepository<Answer>(_context);
             categories = new MainRepository<Category>(_context);
-            moderators = new ModeratorRepository(_context);
+            //moderators = new ModeratorRepository(_context);
             questions = new MainRepository<Question>(_context);
             reports = new MainRepository<Report>(_context);
-            members = new MainRepository<Member>(_context);
+            //members = new MainRepository<Member>(_context);
             //admin = new MainRepository<IdentityUser>(_context);
         }
         private readonly AppDbContext _context;
@@ -27,8 +27,8 @@ namespace QuestionProjectCore.Repository
 
         public IRepository<Report> reports { get; private set; }
 
-        public IRepository<Member> members { get; private set; }
-        public IModeratorRepo moderators { get; private set; }
+        //public IRepository<Member> members { get; private set; }
+        //public IModeratorRepo moderators { get; private set; }
         //public IAdminRepo<IdentityUser> admin { get; private set; }
 
 

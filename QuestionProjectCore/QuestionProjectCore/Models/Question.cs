@@ -9,14 +9,13 @@ namespace QuestionProjectCore.Models
         public int Id { get; set; }
         public int Like { get; set; } = 0;
         [Required]
+        [StringLength(maximumLength:300,ErrorMessage ="Sorry, maximum length is 300", MinimumLength=5)]
         public string TheQuestion { get; set; }
         [ForeignKey("Category")]
-        public int? CategoryID { get; set; }
-        //[ForeignKey("Member")]
+        public int? CategoryId { get; set; }
         [Required]
-        public string UserID { get; set; }
+        public string UserId { get; set; }
         [Required]
-        //public Member Member { get; set; }
         public Category? Category { get; set; }
         public ICollection<Answer>? Answers { get; set; }
     }

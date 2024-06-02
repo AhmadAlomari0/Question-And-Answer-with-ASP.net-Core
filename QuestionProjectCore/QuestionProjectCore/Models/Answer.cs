@@ -11,11 +11,13 @@ namespace QuestionProjectCore.Models
         public int Like { get; set; }
         [Required]
         public string TheAnswer { get; set; }
+        //[Required]
+        //[ForeignKey("member")]
+        //public int MemberID { get; set; }
+        //[Required]
+        //public Member member { get; set; }
         [Required]
-        [ForeignKey("member")]
-        public int MemberID { get; set; }
-        [Required]
-        public Member member { get; set; }
+        public string UserId { get; set; }
         [ForeignKey("question")]
         [Required]
         public int QuestionID { get; set; }

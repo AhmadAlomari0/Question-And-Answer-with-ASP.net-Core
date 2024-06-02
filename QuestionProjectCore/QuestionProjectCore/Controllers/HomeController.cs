@@ -5,7 +5,6 @@ using System.Diagnostics;
 
 namespace QuestionProjectCore.Controllers
 {
-    [Authorize (Roles = Roles.adminRole)]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

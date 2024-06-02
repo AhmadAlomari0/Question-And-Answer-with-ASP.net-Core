@@ -7,15 +7,15 @@ using QuestionProjectCore.Models;
 
 namespace QuestionProjectCore.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class RolesController : Controller
     {
-        public RolesController(UserManager<IdentityUser> user, RoleManager<IdentityRole> roles)
+        public RolesController(UserManager<ApplicationUser> user, RoleManager<IdentityRole> roles)
         {
             _user = user;
             _roles = roles;
         }
-        private readonly UserManager<IdentityUser> _user;
+        private readonly UserManager<ApplicationUser> _user;
         private readonly RoleManager<IdentityRole> _roles;
             
         public async Task<IActionResult> Index()

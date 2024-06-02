@@ -3,6 +3,6 @@
     public class Roles
     {
         public const string adminRole = "Admin";
-        public const string userRole = "User";
+        public const string memberRole = "Member";
     }
 }
