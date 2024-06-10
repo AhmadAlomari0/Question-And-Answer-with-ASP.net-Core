@@ -34,8 +34,7 @@ namespace QuestionProjectCore.Controllers
         [HttpPost]
         public IActionResult WriteQuestion(Question question)
         {
-            //if (ModelState.IsValid)
-            //{
+
                 if (!string.IsNullOrWhiteSpace(question.TheQuestion))
                 {
                     _unitOfWork.questions.Add(question);
@@ -44,8 +43,35 @@ namespace QuestionProjectCore.Controllers
                 }
             return RedirectToAction("WriteQuestion");
 
-            //}
-            //return View("WriteAQuestion", question);
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult WriteAnAnswer(Answer answer, int questionId)
+        {
+
+            if (!string.IsNullOrWhiteSpace(answer.TheAnswer))
+            {
+                var answers = new Answer
+                {
+                    TheAnswer = answer.TheAnswer,
+                    QuestionID = questionId,
+                    UserId = answer.UserId,
+                    Like = answer.Like
+                };
+
+                _unitOfWork.answer.Add(answers);
+
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("WriteAnswer");
+        }
+        //GET
+        public IActionResult WriteAnAnswer(int questionId)
+        {
+            ViewData["questionId"] = questionId;
+            return View();
         }
     }
 }
